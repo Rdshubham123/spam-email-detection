@@ -1,34 +1,14 @@
-# 📧 Spam Email Detection using Machine Learning
+## Notebooks
 
-## 📌 Overview
-This project classifies SMS messages as Spam or Ham using NLP techniques.
+This folder contains the Jupyter notebook used for building and evaluating
+the Spam Email Detection machine learning model.
 
-## 📊 Dataset
-SMS Spam Collection Dataset (Kaggle)
+### Notebook Included
+- **spam_email_detection.ipynb**
+  - Data loading and preprocessing
+  - Text vectorization using TF-IDF
+  - Model training using Multinomial Naive Bayes
+  - Model evaluation with accuracy and confusion matrix
 
-## 🛠 Tools & Technologies
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- TF-IDF
-- Naive Bayes
+Run the notebook from top to bottom to reproduce the results.
 
-## 🔍 Methodology
-- Text preprocessing
-- TF-IDF vectorization
-- Multinomial Naive Bayes model
-- Model evaluation using accuracy and confusion matrix
-
-## 📈 Results
-The model achieved **98% accuracy** on test data.
-
-## 📂 Project Structure
-spam-email-detection/
-
-├── notebooks/
-
-├── images/
-
-├── data/
-
-└── README.md
