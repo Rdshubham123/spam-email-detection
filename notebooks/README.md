@@ -24,6 +24,7 @@ The model achieved **98% accuracy** on test data.
 
 ## 📂 Project Structure
 spam-email-detection/
+
 ├── notebooks/
 
 ├── images/
